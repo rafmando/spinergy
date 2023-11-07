@@ -1,8 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import {Navbar} from './components/navbar/navbar';
-import {Routes, Switch} from 'react-router-dom'
-
+import {Navbar} from './components/navbar';
 
 function App() {
   return (
