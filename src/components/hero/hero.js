@@ -4,8 +4,8 @@ import { Button } from "../button";
 export const Hero = () => {
   return (
     <div className="hero-container">
-      <img src="images/black-bike.jpg" alt="black-bikey"></img>
-      <h1>SPINERGY</h1>
+      <img src="images/nick-rickert.jpg" alt="black-bikey"></img>
+      <h1>SPINERGY </h1>
       <p>BUY HIGH END BIKES</p>
       <div className="hero-btns">
         <Button
