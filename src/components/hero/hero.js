@@ -11,10 +11,10 @@ export const Hero = () => {
     } else {
       setFixedMisc(true);
     }
-    console.log(window.scrollY);
   };
 
   window.addEventListener("scroll", updateFixedMisc);
+
   return (
     <div className="hero-container">
       <img src="images/nick-rickert.jpg" alt="black-bikey"></img>
