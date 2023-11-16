@@ -7,7 +7,6 @@
     top: 0;
     border-right: 1px solid #f0ecec;
     animation: myfirst 5s 1;
-    animation: mysecond 5s 1;
     animation-direction: alternate;
 }
 
@@ -71,10 +70,4 @@
 @keyframes myfirst {
     0%   { left: -200px; top: 0px;}
     10%  { left: 0px; top: 0px;}
-    
-}
-@keyframes mysecond {
-    0%   { left: -200px; top: 0px;}
-    10%  { left: 0px; top: 0px;}
-    
 }
