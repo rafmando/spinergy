@@ -11,6 +11,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#2c2c2c"],
+    sizes: ["xs", "s", "m", "l"],
   },
   {
     id: "2",
@@ -24,6 +26,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#2c2c2c"],
+    sizes: ["xs", "s", "m", "l"],
   },
   {
     id: "3",
@@ -37,6 +41,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#2c2c2c"],
+    sizes: ["xs", "s", "m", "l"],
   },
   {
     id: "4",
@@ -50,6 +56,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#0d4663"],
+    sizes: ["xs", "s", "m", "l"],
   },
   {
     id: "5",
@@ -63,6 +71,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#f9f9f7"],
+    sizes: ["xs", "s", "m", "l"],
   },
   {
     id: "6",
@@ -76,6 +86,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#2c2c2c"],
+    sizes: ["xs", "s"],
   },
   {
     id: "7",
@@ -89,6 +101,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#700107"],
+    sizes: ["xs", "s", "l"],
   },
   {
     id: "8",
@@ -102,6 +116,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#090d93"],
+    sizes: ["s", "l"],
   },
   {
     id: "8",
@@ -115,6 +131,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#0593be"],
+    sizes: ["s", "l"],
   },
   {
     id: "9",
@@ -128,6 +146,8 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#2c2c2c"],
+    sizes: ["s", "l"],
   },
   {
     id: "10",
@@ -141,5 +161,7 @@ export const productsData = [
     countInStock: 10,
     rating: 4.5,
     numReviews: 12,
+    colors: ["#8f8b88"],
+    sizes: ["s", "l"],
   },
 ];
