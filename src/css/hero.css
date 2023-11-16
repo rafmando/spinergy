@@ -60,8 +60,7 @@ img {
 }
 
 .fixed-misc-yeet {
-    animation-direction: alternate;
-    animation: myfirst 5s 1;
+   display: none;
 }
 
 .scroll {
@@ -101,10 +100,4 @@ img {
     .btn {
         width: 100%;
     }
-}
-
-@keyframes myfirst {
-    0%   { left: -10px; top: 0px;}
-    100%  { left: 0px; top: 0px;}
-    
 }
