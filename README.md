@@ -15,5 +15,5 @@ npm start
 <img src="public/images/spinergy_readme.png">
 
 
-<img src="public/images/spinergy_image_readme2.png">
+<img src="public/images/spinergy_image_readme_2.png">
 
