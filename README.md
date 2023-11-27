@@ -1,6 +1,6 @@
 # Spinergy
 
-Allows users to add a comment with a rating which displays data on a doughnut chart. (struggles & improvements in notes.md file)
+Ecommerce store using react and django
 
 ## Run the app in Visual Studio
 1. Install dependancies
