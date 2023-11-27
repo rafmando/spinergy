@@ -12,8 +12,8 @@ npm install
 npm start
 ```
 
-<img src="public/images/spinergy_readme.png">
+<img src="public/images/spinergy_readme.PNG">
 
 
-<img src="public/images/spinergy_image_readme_2.png">
+<img src="public/images/spinergy_image_readme_2.PNG">
 
