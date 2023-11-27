@@ -87,14 +87,13 @@ export const ProductFilter = (props) => {
             <div className="colors">
               {colors.map((clr, index) => (
                 <input
-                  type="checkbox"
                   key={index}
                   id={clr}
                   checked={color === clr.value}
                   className="color"
                   onClick={() => setColor(clr)}
                   style={{
-                    accentColor: `${clr}`,
+                    backgroundColor: `${clr}`,
                   }}
                 />
               ))}
