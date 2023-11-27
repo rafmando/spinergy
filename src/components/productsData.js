@@ -120,21 +120,6 @@ export const productsData = [
     sizes: ["s", "l"],
   },
   {
-    id: "8",
-    brand: "CUBE",
-    name: "Cross Race 2023 Cyclocross Bike",
-    image: "/images/cross-race-2023-cyclocross-bike.jpg",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    priceBefore: 1299.0,
-    price: 1039.0,
-    countInStock: 10,
-    rating: 4.5,
-    numReviews: 12,
-    colors: ["#0593be"],
-    sizes: ["s", "l"],
-  },
-  {
     id: "9",
     brand: "TREK",
     name: "Domane AL 2 Disc Road Bike",
