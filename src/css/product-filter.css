@@ -1,7 +1,7 @@
 .product-filter-menu {
     width: 250px;
     height: 100%;
-    background-color: white;
+    background-color:#fff ;
     position: fixed;
     z-index: 999;
     top: 0;
@@ -47,10 +47,10 @@
     margin-left: 20px;
 }
 
-.size input {
+.size input[type='checkbox'] { 
     width: 15px;
     height: 15px;
-    border: 1px solid black;
+    accent-color: #000;
 }
 
 .colors {
@@ -64,10 +64,64 @@
 .color {
     width: 15px;
     height: 15px;
-    border: 1px solid black;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.price-range {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.price-range input[type='checkbox'] { 
+    accent-color: #000;
+    width: 15px;
+    height: 15px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 700px;
+   
+    position: fixed;
+    z-index: 999;
+    margin-left: 25px;
+    animation: mysecond 5s 1;
+    animation-direction: alternate;
+    
+}
+.filter-button{
+    width: 200px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    border: none;
+}
+
+.filter-button:nth-child(2) {
+    background-color: #fc0d4a;
+    border: 2px solid #000;
 }
 
 @keyframes myfirst {
     0%   { left: -200px; top: 0px;}
     10%  { left: 0px; top: 0px;}
+}
+
+@keyframes mysecond {
+    0%   { left: -200px; }
+    10%  { left: 0px; }
+}
+
+@media  screen and (max-width: 375px) {
+    .buttons-container {
+    margin-top: 500px;
+    }
 }
